@@ -5,6 +5,14 @@
 #include <utility>
 #include <tuple>
 #include <intrin.h>
+#ifndef NO_CUDA_SUPPORT
+#include <cuda.h>
+#include <cuda_runtime.h>
+#else
+#define __host__
+#define __device__
+#define __forceinline__
+#endif
 
 namespace SVD {
 	// Constants used for calculation of givens quaternions
