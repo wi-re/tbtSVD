@@ -1,0 +1,7 @@
+.vscode
+*.vdb_tmp
+*.bvh
+*.abc
+**/backup
+*.mp4
+build
