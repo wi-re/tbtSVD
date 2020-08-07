@@ -1,4 +1,4 @@
-# tbtSVD
+# Fast 3x3 SVDs for GPUs and CPUs
 This project is a CUDA and C++ based implementation of the technical report "Computing the Singular Value Decomposition of 3x3 matrices with minimal branching and elementary floating point operations" available here: http://pages.cs.wisc.edu/~sifakis/project_pages/svd.html
 
 The original authors of the report offer a very optimized implementation for CPUs which is difficult to understand and use and is based on very basic C style programming. This project offers a simple 3x3 Matrix class and a simple function to call.
