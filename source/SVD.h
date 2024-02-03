@@ -1,6 +1,4 @@
 #include <cmath>
-#include <cuda.h>
-#include <cuda_runtime.h>
 #include <algorithm>
 #include <utility>
 #include <tuple>
